@@ -1,0 +1,36 @@
+button:hover {
+    background-color: purple;
+}
+
+.images{
+    width: 200px;
+    height: auto;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.images:hover {
+    transform: scale(1.1);
+}
+
+
+p {
+    font-size: 18px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6; 
+}
+button{
+border-radius: 50px;
+    background: #885df1;
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid #885df1;
+    transition: background 200ms ease, border-color 200ms ease;}
+
+
